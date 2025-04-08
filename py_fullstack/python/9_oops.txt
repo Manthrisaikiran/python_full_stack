@@ -1,0 +1,140 @@
+What is OOps?
+
+Object-oriented programming (OOP) is a programming based on the concept of "objects". 
+The object contains both data and code: Data in the form of properties (often known as attributes), and code, in the form of methods (actions object can perform).
+
+
+OOPs Terminology:
+
+Attribute also known as Data Member or Variable.
+
+Behavior also known as Member Function or Method
+
+
+What is Class?
+
+Class is Defined with Keyword Class
+
+The class is a user-defined data structure that binds the data members and methods into a single unit. Class is a blueprint or code template for object creation. Using a class, you can create as many objects as you want.
+
+Class Examples: Mercedes, BMW, Toyota, etc.
+
+ex: class ClassName:
+
+
+
+What is Object?
+
+An object is simply a collection of data (variables) and methods (functions) that act on those data. Similarly, a class is a blueprint for that object.
+
+The object is the instance of a class. The process of creating an object can be called instantiation.
+
+There is no memory allocation until we create its object. The objector instance contains real data or information.
+
+Object Examples: chair, bike, marker, pen, table, car, etc.
+
+
+
+
+
+Inheritance:
+
+Inheritance allows us to define a class that inherits all the methods and properties from another class.
+
+Parent class is the class being inherited from, also called base class.
+
+Child class is the class that inherits from another class, also called derived class.
+
+Child Inherits qualities from parent
+
+
+
+Types of Inheritance:
+
+
+Single Inheritance:
+
+Class A
+   ^
+   .
+   .
+   .
+Class B
+
+
+Multilevel Inheritance:
+
+Class A
+   ^
+   .
+   .
+   .
+Class B
+   ^
+   .
+   .
+   .
+Class C
+
+
+Hierarchical Inheritance:
+
+       Class A
+          
+
+
+Class B          Class C
+
+
+
+Multiple Inheritance:
+
+
+Class A         Class B
+
+
+        Class C
+
+
+
+Polymorphism:
+
+The literal meaning of polymorphism is the condition of occurrence in different forms.
+
+There are two types:
+
+1.Method Overloading
+
+2.Method Overriding
+
+
+
+
+What is Encapsulation?
+
+Encapsulation is a mechanism of wrapping the data (variables) and code acting on the data (methods) together as a single unit.
+
+
+             { Class    }
+Encapsulation{ Method   }
+             { Variables }
+             
+
+Access Modifiers
+
+class:
+3.public.....>Accessible to Outside world
+2.protected....>Accessible to derived classes
+1.private data.....>Not accessible outside
+
+
+
+Data abstraction:
+
+Data abstraction in Python is the process of hiding unnecessary details and exposing only essential information to users. It's a core concept in object-oriented programming.
+
+Benefits of data abstraction:
+Simplifies complexity: Users can work with higher-level concepts instead of low-level details. 
+Improves code readability: Makes programs easier to understand and maintain. 
+Enhances reusability: Allows developers to reuse code across different projects. 
+Increases security: Hides sensitive information through data hiding. 

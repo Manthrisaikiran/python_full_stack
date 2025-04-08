@@ -1,0 +1,140 @@
+What is Github?
+
+GitHub is a highly used software that is typically used for version control.
+ It is helpful when more than just one person is working on a project. 
+ Say for example, a software developer team wants to build a website and everyone has to update their codes simultaneously while working on the project. 
+ In this case, Github helps them to build a centralized repository where everyone can upload, edit, and manage the code files.
+
+
+What is Git?
+
+It is a free, high-quality distributed version control system suitable for tracking 
+modifications in source code in software development. It was originally created as 
+an open-source system for coordinating tasks among programmers, 
+but today it is widely used to track changes in any set of files.
+
+
+
+difference b/w git and github:
+
+       git                                                                    github
+
+Git is a software.                                                  GitHub is a service.
+
+Git is a command-line tool                                          GitHub is a graphical user interface
+
+Git is installed locally on the system                              GitHub is hosted on the web
+
+Git is maintained by linux.                                         GitHub is maintained by microsoft.
+
+Git is focused on version control and code sharing.                 GitHub is focused on centralized source code hosting.
+
+Git is a version control system to manage source code history.      GitHub is a hosting service for Git repositories.
+
+Git was first released in 2005.                                     GitHub was launched in 2008.
+
+
+
+
+                             Local
+
+        Remote
+
+Working Directory        Staging Area        Local Repo             GitHub
+                                                                      
+
+                                                                    Remote
+
+
+
+
+
+git add
+
+git push
+
+git pull
+
+git commit
+
+git checkout
+
+git merge
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C:\Users\sai kiran>config --global user.email
+
+C:\Users\sai kiran>git config --global user.name
+manthrisaikiran
+
+
+
+
+
+check the user name and email:
+
+git config user.email
+manthrisai3535@gmail.com
+
+git config user.name
+manthrisaikiran
+
+
+
+ to access the file without downloading zip file:
+
+git clone https://github.com/Manthrisaikiran/MANTHRI-SAI-KIRAN.git
+
+
+
+to change directory:
+cd 
+
+
+
+to know the directory of the folder:
+dir
+
+
+to know the status if any changes happen or add new files in your local pc:
+if any changes may occur file may in red color
+git status
+
+
+to go staging area to track:
+git add -A
+
+note:
+after staging area done if we check git status by using "git status" command
+after change files may get green in color
+
+
+to commit github:
+git commit -m "write any message here"
+
+
+puching files from local to main:
+git push origin main
+
+
+to pull code from global to local :
+after changing the files from global(github) to acess the files in local use this command:
+git pull https://github.com/Manthrisaikiran/MANTHRI-SAI-KIRAN.git
+
+
+to check the transaction:
+git log

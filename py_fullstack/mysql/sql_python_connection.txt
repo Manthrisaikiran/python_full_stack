@@ -1,0 +1,83 @@
+
+
+
+
+
+<mysql.connector.connection.MySQLConnection object at 0x000001FAF9CA9E80>
+('d2022',)
+('d2023',)
+('information_schema',)
+('mysql',)
+('performance_schema',)
+('python_course',)
+('student_database',)
+('student_table',)
+('sys',)
+
+
+
+
+
+
+<mysql.connector.connection.MySQLConnection object at 0x000001600A6E9E80>
+('customer',)
+
+
+
+
+
+
+
+<mysql.connector.connection.MySQLConnection object at 0x000001609C779E80>
+1 record inserted.
+
+
+
+
+<mysql.connector.connection.MySQLConnection object at 0x000001D691E69E80>
+('john', 'highway 21')
+
+
+
+
+
+<mysql.connector.connection.MySQLConnection object at 0x000001F314E29E80>
+('john', 'highway 21')
+('john', 'highway 21')
+('john', 'highway 21')
+('john', 'highway 21')
+PS C:\Users\sai kiran\OneDrive\Desktop\mysql> 
+
+
+
+
+
+
+
+
+
+<mysql.connector.connection.MySQLConnection object at 0x000001FAD6D39E80>
+1 record inserted.
+PS C:\Users\sai kiran\OneDrive\Desktop\mysql> python -u "c:\Users\sai kiran\OneDrive\Desktop\mysql\sql_python_connection.py"
+<mysql.connector.connection.MySQLConnection object at 0x0000023F8A689E80>
+('john', 'highway 21')
+('john', 'highway 21')
+('john', 'highway 21')
+('john', 'highway 21')
+('john', 'highway 21')
+('kiran', 'highway 20')
+
+
+
+
+
+#line 76 to 82:
+<mysql.connector.connection.MySQLConnection object at 0x000002377A9D9E80>
+('john', 'highway 21')
+('john', 'highway 21')
+('john', 'highway 21')
+('john', 'highway 21')
+('john', 'highway 21')
+
+
+
